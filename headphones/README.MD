@@ -21,4 +21,3 @@ Responsive landing page built with HTML, CSS, and JavaScript.
   - Buttons: 0.9 opacity on hover/active
   - Max width of the content:1000px centered  in the page
 
-## Files
