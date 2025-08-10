@@ -4,7 +4,7 @@
 
 Responsive landing page built with HTML, CSS, and JavaScript.
 
-## Key Features
+Key Features
 - Mobile-first design (breaks at 480px)
 - Interactive elements with hover states
 - Hamburger menu for mobile
@@ -12,7 +12,7 @@ Responsive landing page built with HTML, CSS, and JavaScript.
 - Form validation
 - Pentagonal stats display
 
-## Design Specs
+Design Specs
 - **Colors**: Primary #FF6565
 - **Fonts**: Source Sans Pro (required), Spin Cycle OT (optional)
 - **Interactions**
