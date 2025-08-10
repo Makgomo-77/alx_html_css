@@ -15,8 +15,10 @@ Responsive landing page built with HTML, CSS, and JavaScript.
 ## Design Specs
 - **Colors**: Primary #FF6565
 - **Fonts**: Source Sans Pro (required), Spin Cycle OT (optional)
-- **Interactions**:
+- **Interactions**
+  - Web page switches to the mobile version when screen is 480px or less
   - Links: #FF6565 on hover/active
   - Buttons: 0.9 opacity on hover/active
+  - Max width of the content:1000px centered  in the page
 
 ## Files
