@@ -1,1 +1,63 @@
 
+/* Add to 1-styles.css to create 2-styles.css */
+/* What We Do Section */
+.what-we-do {
+    padding: 5rem 0;
+    text-align: center;
+    background-color: var(--color-white);
+}
+
+.what-we-do h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-black);
+}
+
+.section-description {
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    color: var(--color-dark-grey);
+    line-height: 1.6;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.service-item {
+    padding: 2rem 1rem;
+}
+
+.service-item span {
+    font-size: 4rem;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+
+.service-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--color-black);
+}
+
+.service-item p {
+    color: var(--color-dark-grey);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
