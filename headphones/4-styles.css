@@ -1,1 +1,52 @@
 
+/* Add to 3-styles.css to create 4-styles.css */
+/* Contact Us Section */
+.contact-us {
+    padding: 5rem 0;
+    text-align: center;
+    background-color: var(--color-white);
+}
+
+.contact-us h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--color-black);
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-bottom: 1px solid var(--color-grey);
+    font-size: 0.9rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+.contact-form .cta-button {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+/* Form Validation */
+.form-group input:invalid:not(:placeholder-shown) {
+    border-color: #ff3860;
+}
+
+.form-group input:valid:not(:placeholder-shown) {
+    border-color: #09c372;
+}
